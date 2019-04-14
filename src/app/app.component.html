@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="page-header" style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <button (click)="selectTheme('default')" type="button">Default Theme</button> 
+  <button (click)="selectTheme('light')" type="button">Light Theme</button> 
+</div>
+<h2>Here are some links to help you start: </h2>
+<ul>
+  <li>
+    <h2 class="heading-primary">Tour of Heroes</h2>
+  </li>
+  <li>
+    <h3 class="heading-secondary">CLI Documentation</h3>
+  </li>
+  <li>
+    <h3 class="heading-secondary">Angular blog</h3>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>

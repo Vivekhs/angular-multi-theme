@@ -1,0 +1,11 @@
+@import "_variables";
+
+.page-header{
+    background: map-get($colors , bg-header )
+}
+.heading-primary{
+    color: map-get($colors , primary-color );
+}
+.heading-secondary{
+    color: map-get($colors , secondary-color );
+}
